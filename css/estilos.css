@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Slab:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,900&display=swap');
+
+*{
+    padding: 30;
+    margin: 30;
+    box-sizing: border-box;
+}
+.parrafoBlanco{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(246, 243, 243);
+    font-size: 1rem;
+}
+.parrafoNormal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: rgb(33, 33, 33);
+    font-size: 1rem;
+}
+.parrafoGris {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #757575;
+    font-size: 1rem;
+}
+
+.parrafoInactivo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.paraSubtitulos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #E1BEE7;
+}
+
+.titulosGrandes {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#7B1FA2;
+}
+
+.destacadosAcentoGrande {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00BCD4;
+}
+
+.textosEnfatizados {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: #757575;
+}
+
+.destacadoComprar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: red;
+    text-decoration-style: double;
+}
+
+.box{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    width: 30vh;
+    background-color: #E1BEE7;
+    margin: 30px 40px;
+    padding: 15px;
+    border: 5px solid #9C27B0
+}
+
+.header_sticky {
+    background-color: #7B1FA2;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+.comentariosDelAutor{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    width: 50vh;
+    background-color: #00BCD4;
+    margin: 30px 40px;
+    padding: 15px;
+}

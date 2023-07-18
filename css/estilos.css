@@ -5,6 +5,13 @@
     margin: 40;
     box-sizing: border-box;
 }
+body{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;;
+}
+
 .parrafoBlanco{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -17,8 +24,15 @@
     padding: 80;
     margin: 80;
     display: flex inline;
-    
 }
+
+.navbarColorRosa{
+    color: #E1BEE7;
+    font-style:normal;
+    font-weight: 400;
+}
+    
+
 .parrafoNormal {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
@@ -100,6 +114,7 @@
 
 .comentariosDelAutor{
     display: inline-block;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: 300;
@@ -110,7 +125,17 @@
     padding: 15px;
 }
 
-.navbar {
+.carousel-item{
+    height: 55vh;
+    width:100%;
+}
+
+.carousel-item .imgAdaptada{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .navbar {
     position: relative;
     display: flex;
     flex-wrap: wrap; 
@@ -138,5 +163,24 @@
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    
+  } */
+
+  
+  .footerHeli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #7B1FA2;
+  }
+
+  .navbar-light .navbar-nav .nav-link.colorRosa{
+    color: pink;
+    font-weight: 800;
+  }
+
+  .navbar-light .navbar-nav .nav-link.colorBlanco{
+    color: white;
+    font-weight: 400;
   }

@@ -184,3 +184,15 @@ body{
     color: white;
     font-weight: 400;
   }
+
+  @media screen and (min-width:0px) and (max-width:768px){
+    .carousel-item {
+        height: 40vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
